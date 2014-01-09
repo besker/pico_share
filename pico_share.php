@@ -23,7 +23,7 @@ class Pico_share {
 			$pre = '<script type="text/javascript" src="'.$this->prefix.'share.min.js"></script>';
 			$post = '<script type="text/javascript">$(function(){ $(".share_button").share(); });</script>';
 
-			$twig_vars["current_page"]["share_button"] = $pre.'<div class="share_button"></div>'.$post;
+			$twig_vars["share_button"] = $pre.'<div class="share_button"></div>'.$post;
 		}
 	}
 }

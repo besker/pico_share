@@ -1,7 +1,7 @@
 pico_share
 ==========
 
-A share plugin for Pico cms based on https://github.com/carrot/share-button
+A share plugin for [Pico](https://github.com/gilbitron/Pico) cms based on https://github.com/carrot/share-button
 
 Installation
 ============

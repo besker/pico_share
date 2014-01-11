@@ -1,10 +1,17 @@
 <?php
-
+/**
+ * Pico_share
+ *
+ * Adds a share button to your posts
+ *
+ * @author Bjoern Esker
+ * @link https://github.com/besker/pico_share
+ * @license http://opensource.org/licenses/MIT
+ */
 class Pico_share {
 
 	private $is_homepage;
 	private $url;
-	private $commented;
 	private $prefix;
 
 	public function config_loaded(&$settings) {
